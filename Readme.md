@@ -8,7 +8,7 @@
 
 <p align="center">
     <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/ludwig-development/redm-fivem_vuetify_boilerplate?filename=frontend%2Fpackage.json">
-    <img alt="GitHub" src="https://img.shields.io/github/license/ludwig-development/redm-fivem_vuetify_boilerplate">
+    <img alt="GitHub" src="https://img.shields.io/github/license/ludwig-development/redm-fivem_vuetify_boilerplate?v=1">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ludwig-development/redm-fivem_vuetify_boilerplate">
     <img alt="Maintenance" src="https://img.shields.io/maintenance/yes/2026">
 </p>
@@ -117,6 +117,7 @@ after building and starting the resource go ingame and execute the command "open
         <img src="https://i.imgur.com/6cnwpHe.jpeg" alt="REDM FIVEM VUETIFY BOILERPLATE BY LUDWIG"/>
     </a>
 </p>
+
 
 
 
