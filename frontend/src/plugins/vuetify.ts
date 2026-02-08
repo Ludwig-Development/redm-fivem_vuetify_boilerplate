@@ -5,7 +5,7 @@
  */
 
 // Styles
-// import '@mdi/font/css/materialdesignicons.css' // only add if you really want all mdi icons, esle use my icons.ts for certain icons you want to use.
+// import '@mdi/font/css/materialdesignicons.css' // only add if you really want all mdi icons, esle use myIcons.ts for importing certain icons you want to use.
 import "vuetify/styles";
 import { aliases, mdi } from "vuetify/iconsets/mdi-svg";
 
