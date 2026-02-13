@@ -94,26 +94,27 @@ onUnmounted(() => {
 </script>
 
 <style>
-::-webkit-scrollbar {
-  width: 0;
-  display: inline !important;
-}
-
-
 html,
 body {
-  width: 100% !important;
-  height: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
   overflow: hidden !important;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
-
-.v-application,
-.v-application--wrap {
-  min-height: 100vh !important;
-  overflow: hidden !important;
-  background: rgb(0, 0, 0, 0) !important;
+/* This kills scrollbars globally for ALL elements of your UI */
+::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
 }
+
+* {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+</style>
+
+<style scoped>
+/* Here you can define your app specific styles */
 </style>
